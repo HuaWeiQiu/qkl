@@ -23,9 +23,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RunManager" selected="Go Build.go build beeproject (1)">
     <configuration name="go build beeproject (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -59,21 +63,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="379" y="0" key="#go_build_beeproject/0.0.1280.680@0.0.1280.680" timestamp="1600744179247" />
-    <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1600745633936">
+    <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1600777605474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600745633936" />
-    <state width="1222" height="161" key="GridCell.Tab.0.center" timestamp="1600745633936">
+    <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600777605474" />
+    <state width="1222" height="161" key="GridCell.Tab.0.center" timestamp="1600777605474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600745633936" />
-    <state width="1222" height="161" key="GridCell.Tab.0.left" timestamp="1600745633936">
+    <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600777605474" />
+    <state width="1222" height="161" key="GridCell.Tab.0.left" timestamp="1600777605474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600745633936" />
-    <state width="1222" height="161" key="GridCell.Tab.0.right" timestamp="1600745633936">
+    <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600777605474" />
+    <state width="1222" height="161" key="GridCell.Tab.0.right" timestamp="1600777605474">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600745633936" />
+    <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600777605474" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1600774240806">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600774240806" />
   </component>
 </project>
