@@ -35,7 +35,7 @@ func (c *MainController) Get() {
 	//}
 	//c.Ctx.WriteString("校验成功")
 //}
-func (c *MainController) Post(){
+/*func (c *MainController) Post(){
 	var person models.Person
 	dataBytes, err := ioutil.ReadAll(c.Ctx.Request.Body)
 	if err != nil {
@@ -51,4 +51,23 @@ func (c *MainController) Post(){
 	fmt.Println("名字",person.Name)
 	fmt.Println("年龄",person.Age)
 	fmt.Println("性别",person.Sex)
+*/
+func (c *MainController) Post(){
+	var register models.Register
+	dataBytes,err := ioutil.ReadAll(c.Ctx.Request.Body)
+	if err !=nil{
+		c.Ctx.WriteString("数据接收失败")
+		return
+	}
+	err = json.Unmarshal(dataBytes,&register)
+	if err != nil{
+		c.Ctx.WriteString("数据解析失败，请重试")
+		return
+	}
+	c.Ctx.WriteString("请求成功")
+	fmt.Println("姓名:",register.Name)
+	fmt.Println("生日:",register.Birthday)
+	fmt.Println("地址:",register.Address)
+	fmt.Println("用户名:",register.Nick)
+
 }
