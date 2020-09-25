@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a25f706-a0de-49b6-bf7b-fbbea279a10b" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/models/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_mysql/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/responseuser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/person.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/person.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/register.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +46,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BeegoProject0603" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RunManager" selected="Go Build.go build beeproject (1)">
@@ -74,26 +81,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="379" y="0" key="#go_build_beeproject/0.0.1280.680@0.0.1280.680" timestamp="1600744179247" />
-    <state x="421" y="104" key="FileChooserDialogImpl" timestamp="1600858844764">
+    <state x="421" y="104" key="FileChooserDialogImpl" timestamp="1601038770425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600858844764" />
-    <state width="1237" height="167" key="GridCell.Tab.0.bottom" timestamp="1600950500343">
+    <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601038770425" />
+    <state width="1220" height="160" key="GridCell.Tab.0.bottom" timestamp="1601042187977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600950500343" />
-    <state width="1237" height="167" key="GridCell.Tab.0.center" timestamp="1600950500343">
+    <state width="1220" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601042187977" />
+    <state width="1220" height="160" key="GridCell.Tab.0.center" timestamp="1601042187977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600950500343" />
-    <state width="1237" height="167" key="GridCell.Tab.0.left" timestamp="1600950500343">
+    <state width="1220" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601042187977" />
+    <state width="1220" height="160" key="GridCell.Tab.0.left" timestamp="1601042187977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600950500343" />
-    <state width="1237" height="167" key="GridCell.Tab.0.right" timestamp="1600950500343">
+    <state width="1220" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601042187977" />
+    <state width="1220" height="160" key="GridCell.Tab.0.right" timestamp="1601042187977">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="167" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600950500343" />
+    <state width="1220" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601042187977" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1600774240806">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

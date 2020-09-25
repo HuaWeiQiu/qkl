@@ -1,8 +1,9 @@
 package models
 
 type Register struct {
-	Name string
+	Name     string
 	Birthday string
-	Address string
-	Nick string
+	Address  string
+	Nick     string
+	Pwd      string
 }
